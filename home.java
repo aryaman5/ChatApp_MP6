@@ -46,7 +46,7 @@ public class home extends AppCompatActivity {
         recyclerView.setLayoutManager(new LinearLayoutManager(this));
 
         firebaseDatabase = FirebaseDatabase.getInstance();
-        databaseReference = firebaseDatabase.getReference("ChatApp");
+        databaseReference = firebaseDatabase.getReference("CS 125");
 
         databaseReference.addValueEventListener(new ValueEventListener() {
             @Override
